@@ -7,13 +7,14 @@
 Create structural summary for Rorschach Comprehensive System. Works with 
 Znudic method for Zulliger test, based on Exner's RCS.
 
-== FEATURES/PROBLEMS:
+== FEATURES
 
-* Command line and web interface
+* Command line and web interface(TODO)
 
 == SYNOPSIS:
 
-  TODO
+* Using command line: 
+  $ zulliger data/zulli_test.txt
 
 == REQUIREMENTS:
 

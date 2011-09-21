@@ -1,6 +1,4 @@
 === 1.0.0 / 2011-09-21
 
-* 1 major enhancement
-
-  * Birthday!
+* First operational version. Incluse executables for Zulliger and Rorscach analysis.
 
