@@ -1,0 +1,12 @@
+%p
+  Ingrese la tabulación del test. Ocupe el ejemplo que se incluye al final como plantilla
+%form{:method=>"post",:action=>url("/informe")}
+  %textarea{:name=>"tabulacion", :rows=>15, :cols=>80}
+  %p 
+    Tipo:
+    %select{:name=>"tipo"}
+      %option{:value=>"zulliger"}Zulliger
+      %option{:value=>"rorschach"}Rorschach
+  %input{:type=>"submit", :name=>"Enviar"}
+%h2 Ejemplo
+%pre=@ejemplo

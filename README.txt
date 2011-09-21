@@ -21,7 +21,7 @@ Znudic method for Zulliger test, based on Exner's RCS.
 
 == INSTALL:
 
-gem install rorschach
+gem install exner
 
 == LICENSE:
 

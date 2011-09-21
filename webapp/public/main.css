@@ -1,0 +1,653 @@
+@import "cuadros.css";
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin:0px;
+    padding:0px;
+
+}
+textarea {
+    font-size:90%;
+}
+
+.portada-principal {
+    margin:5% 25% 0 25%;
+    
+}
+
+.solo-impresora {
+    display:none;
+}
+
+
+.table-login {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#outer {
+}
+#header {
+    background:#eee;
+    padding:0.2em 2em;
+    border-bottom:1px solid #ccc;
+}
+
+#primarycontent {
+    padding:0px 2em;
+    clear:both;
+}
+
+#footer {
+    border-top:1px solid #ccc;
+    background:#eee;
+    text-align:center;
+}
+
+
+#menu ul li {
+    display:inline;
+}
+
+img
+{
+	cursor:pointer;
+    border:0px;
+}
+img.login
+{
+	cursor:default;
+}
+img.titulo
+{
+	cursor:default;
+}
+table
+{
+    background-color:#ccc;
+}
+table.login
+{
+	background-color:#ffffff;
+}
+td
+{
+	font-family:verdana;
+    background-color:white;
+}
+td.login
+{
+	background-color:#ffffff;
+	font-family:verdana;
+	
+	color:#ffffff;
+}
+
+td.reporte_negro
+{
+	background-color:#000000;
+}
+
+th.reporte_a
+{
+	background-color:#777777;
+	font-family:verdana;
+	
+	color:#ffffff;
+}
+th.reporte_at
+{
+	background-color:#dddddd;
+	font-family:verdana;
+	
+	color:#000000;
+}
+th.reporte_b
+{
+	background-color:#777777;
+	font-family:verdana;
+	
+	color:#ffffff;
+}
+th.reporte_da
+{
+	background-color:#aaaaaa;
+	font-family:verdana;
+	
+	color:#000000;
+}
+th.reporte_dar
+{
+	background-color:#444444;
+	font-family:verdana;
+	
+	color:#ffffff;
+}
+th.reporte_o
+{
+	background-color:#111111;
+	font-family:verdana;
+	
+	color:#ffffff;
+}
+th.reporte_pe
+{
+	background-color:#444444;
+	font-family:verdana;
+	
+	color:#ffffff;
+}
+th.reporte_t
+{
+	background-color:#aaaaaa;
+	font-family:verdana;
+	
+	color:#000000;
+}
+
+
+
+td.mainFrame
+{
+	background-color:#FFFFFF;
+}
+
+td.blanco
+{
+	background-color:#FFFFFF;
+	font-family:verdana;
+	
+	color:#000000;
+}
+td.vacio {
+    background-color:red;
+    color:white;
+}
+td.sin_operaciones a {
+    color:white;
+}
+
+
+/** Linea lógica **/
+
+table.linea_logica {
+    border: 1px solid black;
+    background-color:grey;
+    width:90%;
+    border-collapse:collapse;
+    margin: 1em;
+    padding: 0.5em;
+}
+table.linea_logica tr {
+    border-bottom: 1px solid grey;
+    padding-bottom:0.2em;
+    font-size: 10pt;
+}
+
+table.linea_logica tr td {
+    background-color:white;
+    padding:2px;
+    font-size:11px;
+}
+
+table.linea_logica tr td.tipo {
+    font-weight: bold;
+    border-right: 1px solid #aaa;
+    color: #265787;
+}
+
+table table.linea_logica a {
+    color:black;
+}
+
+table table.linea_logica a:hover {
+    color:red;
+    text-decoration:none;
+}
+
+
+div.expansible, .collapsable {
+    width:90%;
+    margin:0;
+}
+div.expansible .cabecera, .collapsable .header{
+    width:auto;
+    margin:0px;
+    padding:0px;
+    height:25px;
+}
+
+div.expansible .icono, .collapsable .icon{
+    margin:0px;
+    padding:0px;
+    float:left;
+}
+
+
+div.expansible .mensaje , .collapsable .name{
+    width:auto;;
+    /**position:relative;**/
+    display:block;
+    float:left;
+    padding:auto;
+    padding-left:0.5em;
+    margin:0;
+    background-color:white;
+    color:#a1a1a1;
+    height:23px;
+    vertical-align:top;
+    font-size:12px;
+}
+div.expansible .contenido, .collapsable .content {
+    background:#f3f3f3;
+    width:auto;
+    padding:0.5em;
+    border:1px solid #d7d7d7;
+    border-top:0px;
+    position:relative;
+    top:0px;
+}
+
+div#ayuda {
+    background-color:#ffa;
+    border:1px solid #cca;
+    padding:1em;
+    margin:0.2em;
+    width:80%;
+    display:none;
+}
+
+.advertencia {
+    background-image: url('/images/rechazado_otro_16x16.png');
+    background-repeat:no-repeat;
+    padding-left:30px;
+    margin:0em 1em 1em 1em;
+}
+
+.aviso {
+    background-image: url('/images/ejecucion.png');
+    background-repeat:no-repeat;
+    background-position: 1% 50%;
+    padding:0.5em;
+    border:1px solid red;
+    padding-left:30px;
+    margin:0em 1em 1em 1em;
+    background-color: #FFFFAA;
+    color:red;
+    font-weight: bold;
+}
+
+tr.completa td, td.completa {
+    background:#e3ffe3;
+}
+
+ul.actividades {
+    padding: 0;
+	margin: 0;
+	list-style: none;
+    border:0px;
+}
+ul.actividades li {
+    padding-left:30px;
+    line-height:1.5em;
+}
+
+li.completa {
+    background-image: url('/images/completar.png');
+    background-repeat:no-repeat;
+    background-position: 1% 50%;
+    color:#060;
+}
+
+li.retrasada {
+    background-image: url('/images/rechazado_tiempo_16x16.png');
+    background-repeat:no-repeat;
+    background-position: 1% 50%;
+    color:#600;
+}
+
+
+td.actual {
+    background: #fff;
+}
+
+tr.retrasada td, td.retrasada {
+    background: #fbb;
+}
+
+tr.cancelada td, td.cancelada{
+    background: #a33;
+    color:white;
+}
+
+tr.suspendida td , td.suspendida {
+    background:#eee;
+
+}
+
+
+td.modificada {
+    background:#ffe3e3;
+}
+
+
+.inactiva {
+    color:#999;
+    background:#eee;
+}
+
+
+div.caja {
+    padding:1em;
+    margin-top:0.5em;
+    border:1px solid #f3f3f3;
+}
+
+table.demandas {
+    width:90%;
+}
+table.demandas th {
+    width:15%;
+}
+table.demandas tr.primero td{
+    background:#ffe;
+}
+
+table.demandas tr.segundo td{
+    background:#fef;
+}
+
+table.demandas tr.tercero td{
+    background:#eff;
+}
+
+table.grafico_barra {
+    border:0px solid transparent;
+    border-collapse: collapse;
+}
+
+table.grafico_barra tr {
+    border:0px solid transparent;
+}
+table.grafico_barra td {
+    border:1px solid #aaa;
+    height:100%;
+}
+
+.selector {
+border:1px solid #d1d1d1;
+padding:0.5em;
+}
+
+.lista-sin-margenes, .selector-personas, .selector-proyectos, .selector-unidades, .selector-ambitos {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0;
+}
+
+.selector-contenedor  {
+    width:800px;
+    max-height:200px;
+    overflow:auto;
+}
+
+
+
+#feedback { font-size: 1.4em; }
+
+.selector-personas .ui-selecting  { background: #FECA40; }
+.selector-personas .ui-selected { background: #F39814; color: white; }
+
+.selector-ambitos .ui-selecting  { background: #FECA40; }
+.selector-ambitos .ui-selected { background: #F39814; color: white; }
+
+.selector-proyectos .ui-selecting  { background: #FECA40; }
+.selector-proyectos .ui-selected { background: #F39814; color: white; }
+
+.selector-unidades .ui-selecting  { background: #FECA40; }
+.selector-unidades .ui-selected { background: #F39814; color: white; }
+
+
+
+
+
+
+
+
+.selector .titulo {
+    color: #265787;
+    font-weight: bold;
+    margin-bottom:0.5em;
+}
+.selector .submenu {
+    margin-top:0.5em;
+}
+
+table.calendario td {
+    width:12%;
+}
+table.calendario .dia {
+    text-align:center;
+    font-size:12pt;
+}
+
+table.reporte tr.titulo td {
+    background:#eee;
+    color:#333;
+}
+
+div.imagen {
+    margin-bottom:5px;
+}
+
+div.marcado {
+    border:2px solid red;
+    background: #eee;
+    padding:0.5em;
+}
+tr.marcado {
+    border:1px solid red;
+}
+tr.marcado td {
+    font-weight: bold;
+}
+
+div.regiones, div.tipos_unidades, div.ambitos {
+    border:1px dashed #d1d1d1;
+    padding:0.5em;
+    margin-bottom:1em;
+}
+div.regiones > div.nombre, div.tipos_unidades > div.nombre, div.ambitos > div.nombre {
+    font-size:120%;
+    color: #265787;
+    font-weight: bold;
+}
+div.region, div.tipo_unidad {
+    border-top:1px solid #ccc;
+    font-size:100%;
+    margin-bottom: 0.5em;
+}
+
+div.region > div.nombre , div.tipo_unidad > div.nombre {
+    font-size:110%;
+    font-weight: bold;
+}
+
+div.region div.comunas, div.tipo_unidad div.unidad {
+    padding-left:1em;
+}
+
+div.comuna div.nombre , div.unidad div.nombre {
+    
+    font-weight:normal;
+    color: #265787;
+}
+
+div.localidades_fisicas div.localidad_fisica {
+    padding-left:1.5em;
+}
+.cerrado {
+    display:none;
+}
+
+.escondido {
+    display:none;
+}
+
+
+.abierto {
+    display:block;
+}
+
+.exito {
+    font-weight: bold;
+    color:green;
+}
+
+.descripcion {
+    background: #eef;
+    border: 1px solid #aaf;
+    padding:0.5em;
+    margin:0.5em 0;
+}
+
+table.presupuesto td {
+    text-align:right;
+    padding:0.1em;
+}
+
+table.presupuesto td.texto {
+    text-align:left;
+    padding:0.1em;
+}
+
+#selector_personas_lista {
+    margin:1em;
+}
+
+.tabla_personas {
+    border-collapse:collapse;
+    
+}
+
+.tabla_personas td {
+    border: 1px solid #aaa;
+}
+.centrado {
+text-align:center;
+}
+
+tr.oficial td {
+    background:#ccc;
+}
+
+
+.modificado, tr.modificado td {
+border: 1px solid yellow;
+
+}
+
+.centro_costo {
+    background-color:#ffaaff;
+    border:2px solid black;
+}
+
+
+pre.log {
+    height: 200px;
+    overflow:scroll;
+    background:#eee;
+    margin:0.5em;
+    padding:0.5em;
+}
+
+#evaluacion  th {
+    font-size:10pt;
+    width:150px;
+    border:0px;
+    height:2.5em;
+    
+}
+
+#evaluacion td {
+    font-size:90%;
+    vertical-align:middle;
+    border:0px;
+    height: 2.5em;
+}
+
+
+#evaluacion td {
+    table-collapse:collapse;
+}
+
+#usuario {
+    float:right;
+    border:1px solid black;
+    padding:0.5em;
+    background:white;
+}
+
+div.indicador-titulo {
+    width:300px;
+    font-size:8pt;
+    height:2.5em;
+}
+
+
+div.indicador {
+    width:300px;
+    font-size:8pt;
+    height: 2.5em;
+    overflow:hidden;
+}
+
+div.persona {
+    width:175px;
+    height:2.5em;
+    font-size:9pt;
+    overflow:hidden;
+    padding:0;
+    margin:0;
+}
+
+tr.sin-personas td {
+    background: #fee;
+}
+
+.sf-menu a {
+	border-left:	1px solid #fff;
+	border-top:		1px solid #CFCFCF;
+	padding: 		.75em 1em;
+	text-decoration:none;
+}
+
+.sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+	color:			#333;
+}
+#menu {
+    clear:both;
+    margin-bottom:1em;
+}
+
+.sf-menu li {
+	background:		#eee;
+}
+.sf-menu li li {
+	background:		#ddd;
+}
+.sf-menu li li li {
+	background:		#ccc;
+}
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	background:		#CFDEFF;
+	outline:		0;
+}
+#mensajes {
+    clear:both;
+}
+
+.desarrollo {
+    color:red;
+}
