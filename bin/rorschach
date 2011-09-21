@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'exner'
+
+puts Exner::Rtf::Rorschach.process(File.read(ARGV[0]))

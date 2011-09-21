@@ -1,0 +1,16 @@
+I		1 	Dd+		Mp.FYo 	(2) H,Cg,Ay		4.0
+I		2 	WSo		Fo			(Hd)		3.5
+II		3 	D+		Mao		(2)	H,Cg		3.0	COP
+II		4	Do		FYo			A
+III		5	D+		Mao		(2)	H,Hh,Cg	P	3.0	COP
+III		6	Do		Fu			An
+IV		7	Wo		Mao			(H)		P	2.0
+V		8	Wo		FMa.FYo		A		P	1.0	PER
+VI		9	Do		Fu			A
+VII		10	Do		F+		(2)	Hd		P
+VII		11	Do		FMpo		(A)				DV1
+VIII	12	D+		FMa.CF-	(2)	A,Na	P	3.0	FABCOM2
+IX		13	Ddv/+	CF.mao		Fi,Na		2.5
+IX		14	Ddo		FYu			An,Sx
+X		15	D+		Mau		(2)	A,Id		4.0	FABCOM2,COP
+X		16	Ddo		FC-			(Hd)
