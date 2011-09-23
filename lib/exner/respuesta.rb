@@ -101,7 +101,7 @@ module Exner
 		end
 
 		def to_s
-			Exner.a_romano(@lamina)+" "+@respuesta.to_s+" "+@localizacion+@dq+" "+@determinantes.join('.')+@fq+" "+(@par ? "(2) ":" ")+@contenidos.join(',')+" "+(@popular ? "P " :" ")+@z.to_s+" "+@ccee.join(',')
+			Exner.a_romano(@lamina)+" "+@respuesta.to_s+" "+@localizacion+@dq+" "+@determinantes.join('.')+@fq+" "+(@par ? "(2) " : " ")+@contenidos.join(',')+" "+(@popular ? "P " :" ")+@z.to_s+" "+@ccee.join(',')
 		end
 		def <=>(resp)
 			@respuesta<=>resp.respuesta

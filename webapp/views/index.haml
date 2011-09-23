@@ -1,7 +1,9 @@
+- if @error
+  .aviso=@error
 %p
   Ingrese la tabulación del test. Ocupe el ejemplo que se incluye al final como plantilla
-%form{:method=>"post",:action=>url("/informe")}
-  %textarea{:name=>"tabulacion", :rows=>15, :cols=>80}
+%form{:method=>"post",:action=>url("/")}
+  %textarea{:name=>"tabulacion", :rows=>15, :cols=>80}=@tabulacion
   %p 
     Tipo:
     %select{:name=>"tipo"}

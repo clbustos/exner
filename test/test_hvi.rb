@@ -11,7 +11,7 @@ class TC_ExnerHvi < Test::Unit::TestCase
 		@p=@a.hvi
 	end
 	def test_numero
-		assert(@p==3)
+		assert_equal(3,@p)
 	end
 	def test_lista
 		{1=>true,

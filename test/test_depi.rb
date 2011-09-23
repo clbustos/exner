@@ -8,21 +8,21 @@ class TC_ExnerDepi < Test::Unit::TestCase
 		@lista=@a.depi(true)
 		@p=@a.depi
 	end
-	def teardown
-	end
 	def test_numero
-		assert(@p==2)
+		assert_equal(3,@p)
 	end
+  
 	def test_lista
-		{1=>false,
+		{
+    1=>false,
 		2=>false,
-		3=>false,
+		3=>true,
 		4=>true,
 		5=>false,
 		6=>false,
 		7=>true
 		}.each {|k,v|
-			assert_equal(v,@lista[k],k)
+			assert_equal(v,@lista[k], "Element #{k} should be #{v} but was #{@lista[k]}")
 		}
 	end
 end

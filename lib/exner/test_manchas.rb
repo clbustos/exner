@@ -74,8 +74,8 @@ module Exner
 		end
 		def open_file(file)
 			raise "No se definió archivo" if file.nil?
-			File.open(file,'r') {|file|
-				open_stream(file)
+			File.open(file,'r') {|f|
+				open_stream(f)
 			}
 		end
 		def each_determinante

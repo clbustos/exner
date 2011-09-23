@@ -54,7 +54,7 @@ def test_controles
 		assert_equal(3,@a.COP)
 		assert_equal(0,@a.AG)
 		assert_equal(0,@a.Fd)
-		assert_equal(0.25,@a.aislamiento_r)
+		assert_equal(0.25, @a.aislamiento_r)
 		assert_equal('3:4',@a.h_h_hd_hd)
 		assert_equal('3:1',@a.p_h_hd_p_a_ad)
 		assert_equal('8:1',@a.h_a_hd_ad)
