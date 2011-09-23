@@ -5,17 +5,27 @@
 == DESCRIPTION:
 
 Create structural summary for Rorschach Comprehensive System. Works with 
-Znudic method for Zulliger test, based on Exner's RCS.
+standard Exner's RCS for Rorschach test and Znudic method for Zulliger test, based on Exner's RCS.
 
 == FEATURES
 
-* Command line and web interface(TODO)
+* Command line and web interface
 
 == SYNOPSIS:
 
 * Using command line: 
   $ zulliger data/zulli_test.txt
 
+or 
+
+  $ rorschach data/test_manchas.txt
+
+* Using Sinatra webapp
+  $ cd webapp
+  $ ruby app.rb
+  
+  
+   
 == REQUIREMENTS:
 
 

@@ -1,4 +1,6 @@
 .autotest
+Gemfile
+Gemfile.lock
 History.txt
 Manifest.txt
 README.txt
@@ -40,3 +42,8 @@ test/test_rorschach.rb
 test/test_scon.rb
 test/test_sczi.rb
 test/text_cdi.rb
+webapp/app.rb
+webapp/log/app.log
+webapp/public/main.css
+webapp/views/index.haml
+webapp/views/layout.haml
