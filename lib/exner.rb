@@ -6,7 +6,7 @@ require 'exner/respuesta.rb'
 require 'exner/rtf'
 # Clase que almacena información sobre una respuesta a una lámina
 module Exner
-  VERSION="1.0.0"
+  VERSION="1.0.1"
   # De números arábigos a romanos
 	ROMANOS={1=>'I',2=>'II', 3=>'III',4=>'IV',5=>'V', 6=>'VI',7=>'VII',8=>'VIII',9=>'IX',10=>'X'}
 	# Localizaciones válidas
